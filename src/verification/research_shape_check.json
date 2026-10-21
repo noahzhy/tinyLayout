@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "check": "research_config_random_tensor_forward_only",
+  "prediction_shape": [
+    2,
+    256,
+    128
+  ],
+  "target_shape": [
+    2,
+    256,
+    128
+  ],
+  "finite": true,
+  "trainable_parameters": 967177,
+  "not_real_mapping_performance": true
+}

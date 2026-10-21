@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "fixture_window_0001",
+  "store_id": "fixture_store_01",
+  "task_id": "fixture_task_01",
+  "split": "train",
+  "frames": [
+    {
+      "frame_id": "f000",
+      "segment_id": "segment_01",
+      "timestamp_s": 10.0,
+      "image_path": "placeholder_rgb/f000.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "frame_id": "f001",
+      "segment_id": "segment_01",
+      "timestamp_s": 10.5,
+      "image_path": "placeholder_rgb/f001.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "frame_id": "f002",
+      "segment_id": "segment_01",
+      "timestamp_s": 11.0,
+      "image_path": "placeholder_rgb/f002.jpg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "frame_id": "f003",
+      "segment_id": "segment_01",
+      "timestamp_s": 11.5,
+      "image_path": "placeholder_rgb/f003.jpg",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "context_frame_ids": [
+    "f000",
+    "f001"
+  ],
+  "hidden_frame_ids": [
+    "f002",
+    "f003"
+  ],
+  "teacher_frame_ids": [
+    "f000",
+    "f001",
+    "f002",
+    "f003"
+  ],
+  "anchor_frame_id": "f000",
+  "query_cutoff_s": 11.5,
+  "memory_snapshot": {
+    "snapshot_id": "prior_00",
+    "cutoff_s": 9.5,
+    "records": [
+      {
+        "object_id": "older_portal",
+        "observed_at_s": 4.0,
+        "committed_at_s": 4.5,
+        "evidence_frame_ids": [
+          "prior_f01"
+        ]
+      }
+    ]
+  },
+  "chart": {
+    "convention": "anchor_ground_xy_v1",
+    "unit_mode": "normalized",
+    "span_units": 2.0,
+    "valid": true
+  },
+  "labels": null,
+  "fixture_only": true,
+  "notice": "Schema example only. RGB files and annotation labels are not included."
+}

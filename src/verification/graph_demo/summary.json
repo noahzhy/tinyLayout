@@ -1,0 +1,6 @@
+{
+  "fixture_only": true,
+  "prediction_cannot_certify_edge": true,
+  "verified_edges_after_revoke": 0,
+  "events": 9
+}
