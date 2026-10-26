@@ -1,0 +1,2 @@
+# Optional: saved instance-PNG decoding for label re-export.
+Pillow

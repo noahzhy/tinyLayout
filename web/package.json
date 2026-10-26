@@ -1,0 +1,4 @@
+{
+  "name": "@tinylayout/web", "private": true, "type": "module", "version": "0.1.0",
+  "dependencies": {"fflate": "0.8.2", "react": "19.1.1", "react-dom": "19.1.1", "three": "0.180.0"}
+}

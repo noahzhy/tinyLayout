@@ -1,0 +1,18 @@
+{
+  "name": "tinylayout-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["web"],
+  "scripts": {
+    "dev": "vite --config web/vite.config.ts --host 127.0.0.1",
+    "build": "tsc --noEmit -p web/tsconfig.json && vite build --config web/vite.config.ts",
+    "synth": "tsx web/cli/index.ts",
+    "test": "vitest run --config web/vitest.config.ts",
+    "test:e2e": "tsx web/tests/browser.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6", "@types/react": "19.1.16", "@types/react-dom": "19.1.9",
+    "@types/three": "0.180.0", "@vitejs/plugin-react": "5.0.3", "playwright": "1.56.1",
+    "tsx": "4.20.6", "typescript": "5.9.3", "vite": "7.1.7", "vitest": "3.2.4"
+  }
+}

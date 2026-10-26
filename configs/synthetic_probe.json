@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "seed": 17,
+  "stores": 1,
+  "width": 24,
+  "length": 18,
+  "shelf_rows": 4,
+  "aisle_width": 2,
+  "family": "mixed",
+  "frames_per_task": 16,
+  "sample_interval_s": 0.5,
+  "image_width": 192,
+  "image_height": 144,
+  "chart_span_m": 12,
+  "bev_size": 16,
+  "trajectory": "continuous"
+}
